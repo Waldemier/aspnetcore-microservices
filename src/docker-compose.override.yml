@@ -1,0 +1,23 @@
+version: '3.4'
+
+services: 
+  catalogdb:
+    container_name: catalogdb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      # where data is located in mongo image container
+      - mongo_data:/data/db
+
+  catalog.api:
+    container_name: catalog.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # override appsettings variable for correctly working with data 
+      # (container always sees only other containers network, but not a local network as localhost)
+      - "DatabaseSettings:ConnectionString=mongodb://catalogdb:27017"
+    depends_on: 
+      - catalogdb
+    ports:
+      - "8000:80"

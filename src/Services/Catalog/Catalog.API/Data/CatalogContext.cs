@@ -6,6 +6,8 @@ namespace Catalog.API.Data
 {
     public class CatalogContext: ICatalogContext
     {
+        // DESCRIPTION: With Mongo database we do not need to create tables and migrations. 
+        // The only thing we need is to create a collection only with mongo cli.
         public CatalogContext(IConfiguration configuration)
         {
             // For connection with mongo database
