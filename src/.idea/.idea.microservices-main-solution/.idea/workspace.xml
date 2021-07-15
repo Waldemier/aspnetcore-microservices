@@ -11,10 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="38a2e02f-f300-4afb-9161-2d6d4712f63e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-main-solution.sln" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-main-solution.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount.API/Discount.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount.API/Discount.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount.API/Repositories/DiscountRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount.API/Repositories/DiscountRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount.API/Repositories/IDiscountRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount.API/Repositories/IDiscountRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount.API/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
       <workItem from="1626264349124" duration="103000" />
       <workItem from="1626264918153" duration="6220000" />
       <workItem from="1626296155671" duration="2005000" />
-      <workItem from="1626376422033" duration="4655000" />
+      <workItem from="1626376422033" duration="7274000" />
     </task>
     <servers />
   </component>
