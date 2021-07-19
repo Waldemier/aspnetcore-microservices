@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Dapper;
-using Discount.API.Entities;
+using Discount.Grpc.Entities;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 
-namespace Discount.API.Repositories
+namespace Discount.Grpc.Repositories
 {
     public class DiscountRepository: IDiscountRepository
     {
@@ -59,7 +59,7 @@ namespace Discount.API.Repositories
                 this._configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var affected = await connection.ExecuteAsync(
-                @"UPDATE Coupon SET ProductName=@ProductName, Description=@Description, Amount=@Amount WHERE Id=@Id;",
+                @"UPDATE Coupon SET ProductName=@ProductName, Description=@Description, Amount=@Amount WHERE Id=@Id",
                 new 
                 { 
                     ProductName = coupon.ProductName, 

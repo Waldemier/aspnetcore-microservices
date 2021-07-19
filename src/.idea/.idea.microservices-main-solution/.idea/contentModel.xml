@@ -109,6 +109,47 @@
             </e>
             <e p="Startup.cs" t="Include" />
           </e>
+          <e p="Discount.Grpc" t="IncludeRecursive">
+            <e p="appsettings.Development.json" t="Include" />
+            <e p="appsettings.json" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Discount.Grpc.csproj" t="IncludeRecursive" />
+            <e p="Entities" t="Include">
+              <e p="Coupon.cs" t="Include" />
+            </e>
+            <e p="extensions" t="Include">
+              <e p="HostExtensions.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="net5.0" t="Include">
+                  <e p="Discount.Grpc.AssemblyInfo.cs" t="Include" />
+                  <e p="Protos" t="Include">
+                    <e p="Discount.cs" t="Include" />
+                    <e p="DiscountGrpc.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Profiles" t="Include">
+              <e p="DiscountProfile.cs" t="Include" />
+            </e>
+            <e p="Program.cs" t="Include" />
+            <e p="Properties" t="Include">
+              <e p="launchSettings.json" t="Include" />
+            </e>
+            <e p="Protos" t="Include">
+              <e p="discount.proto" t="Include" />
+            </e>
+            <e p="Repositories" t="Include">
+              <e p="DiscountRepository.cs" t="Include" />
+              <e p="IDiscountRepository.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="DiscountService.cs" t="Include" />
+            </e>
+            <e p="Startup.cs" t="Include" />
+          </e>
         </e>
       </e>
     </e>
