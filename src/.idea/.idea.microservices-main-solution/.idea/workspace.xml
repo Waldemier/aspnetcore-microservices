@@ -10,8 +10,14 @@
     <list default="true" id="38a2e02f-f300-4afb-9161-2d6d4712f63e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.API/Repositories/DiscountRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.API/Repositories/DiscountRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-main-solution.sln" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-main-solution.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +43,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Services/Discount.API/appsettings.json" />
       <option value="$PROJECT_DIR$/Services/Discount.API/Repositories/DiscountRepository.cs" />
-      <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Dockerfile" />
-      <option value="$PROJECT_DIR$/docker-compose.yml" />
-      <option value="$PROJECT_DIR$/docker-compose.override.yml" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Program.cs" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Extensions/HostExtensions.cs" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Properties/launchSettings.json" />
@@ -53,13 +56,23 @@
       <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Repositories/DiscountRepository.cs" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Discount.Grpc.csproj" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Profiles/DiscountProfile.cs" />
-      <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Startup.cs" />
+      <option value="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" />
+      <option value="$PROJECT_DIR$/Services/Basket/Basket.API/GrpcServices/DiscountGrpcService.cs" />
+      <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Startup.cs" />
+      <option value="$PROJECT_DIR$/Services/Basket/Basket.API/Startup.cs" />
+      <option value="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" />
+      <option value="$PROJECT_DIR$/Services/Basket/Basket.API/Controllers/BasketController.cs" />
+      <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Dockerfile" />
+      <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Dockerfile" />
+      <option value="$PROJECT_DIR$/docker-compose.yml" />
+      <option value="$PROJECT_DIR$/docker-compose.override.yml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vIBLA3rJ3fcjS8dY6ndhPwNqdv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -70,10 +83,77 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MemberGeneratorId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Discount.Grpc">
+  <component name="RunManager" selected="Compound.Basket.API / Discount.Grpc">
+    <configuration name="Basket.API / Discount.Grpc" type="CompoundRunConfigurationType">
+      <toRun name="Discount.Grpc" type="LaunchSettings" />
+      <toRun name="Basket.API" type="LaunchSettings" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="Discount.Grpc" type="LaunchSettings" />
+      <toRun name="Basket.API" type="LaunchSettings" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Basket.API" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net5.0/Basket.API.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Services/Basket/Basket.API" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net5.0" />
+      <browser url="http://localhost:5003" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Discount.Grpc" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net5.0/Discount.Grpc.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Services/Discount/Discount.Grpc" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Discount.Grpc.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net5.0" />
+      <browser url="http://localhost:5003" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <browser url="http://localhost:5003" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Basket.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -179,6 +259,32 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Docker compose" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="secondarySourceFiles">
+            <list>
+              <option value="docker-compose.override.yml" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Basket.API: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Basket.API" />
+      <item itemvalue=".NET Launch Settings Profile.Catalog.API: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Catalog.API" />
+      <item itemvalue=".NET Launch Settings Profile.Discount.API: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Discount.API" />
+      <item itemvalue=".NET Launch Settings Profile.Discount.Grpc" />
+      <item itemvalue=".NET Project.Basket.API" />
+      <item itemvalue=".NET Project.Discount.Grpc" />
+      <item itemvalue="Compound.Basket.API / Discount.Grpc" />
+      <item itemvalue="Docker.Docker compose" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -196,7 +302,8 @@
       <workItem from="1626296155671" duration="2005000" />
       <workItem from="1626376422033" duration="7274000" />
       <workItem from="1626554893272" duration="1670000" />
-      <workItem from="1626617346244" duration="18804000" />
+      <workItem from="1626617346244" duration="18923000" />
+      <workItem from="1626739716076" duration="10963000" />
     </task>
     <servers />
   </component>
@@ -241,6 +348,84 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/GrpcServices/DiscountGrpcService.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/Services/Basket/Basket.API/GrpcServices/DiscountGrpcService.cs" initialLine="22" containingFunctionPresentation="method 'GetDiscountAsync'">
+            <startOffsets>
+              <option value="768" />
+            </startOffsets>
+            <endOffsets>
+              <option value="842" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" initialLine="29" containingFunctionPresentation="method 'GetDiscount'">
+            <startOffsets>
+              <option value="1146" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1220" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" initialLine="40" containingFunctionPresentation="method 'GetDiscount'">
+            <startOffsets>
+              <option value="1686" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1705" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Controllers/BasketController.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/Services/Basket/Basket.API/Controllers/BasketController.cs" initialLine="36" containingFunctionPresentation="method 'UpdateBasketAsync'">
+            <startOffsets>
+              <option value="1414" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1494" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Extensions/HostExtensions.cs</url>
+          <line>76</line>
+          <properties documentPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Extensions/HostExtensions.cs" initialLine="76" containingFunctionPresentation="method 'MigrateDatabase'">
+            <startOffsets>
+              <option value="3408" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3462" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Repositories/DiscountRepository.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Repositories/DiscountRepository.cs" initialLine="31" containingFunctionPresentation="method 'GetDiscountAsync'">
+            <startOffsets>
+              <option value="1159" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1173" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

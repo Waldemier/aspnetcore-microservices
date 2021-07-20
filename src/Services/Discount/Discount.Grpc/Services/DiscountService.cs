@@ -9,6 +9,9 @@ using Microsoft.Extensions.Logging;
 
 namespace Discount.Grpc.Services
 {
+    /// <summary>
+    /// Grpc server side class
+    /// </summary>
     public class DiscountService: DiscountProtoService.DiscountProtoServiceBase // class that generated from Protos/discount.proto file
     {
         private readonly IDiscountRepository _repository;

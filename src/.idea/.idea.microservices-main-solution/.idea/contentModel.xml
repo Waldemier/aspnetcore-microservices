@@ -20,10 +20,15 @@
               <e p="ShoppingCart.cs" t="Include" />
               <e p="ShoppingCartItem.cs" t="Include" />
             </e>
+            <e p="GrpcServices" t="Include">
+              <e p="DiscountGrpcService.cs" t="Include" />
+            </e>
             <e p="obj" t="ExcludeRecursive">
               <e p="Debug" t="Include">
                 <e p="net5.0" t="Include">
                   <e p="Basket.API.AssemblyInfo.cs" t="Include" />
+                  <e p="Discount.cs" t="Include" />
+                  <e p="DiscountGrpc.cs" t="Include" />
                 </e>
               </e>
             </e>
@@ -114,6 +119,7 @@
             <e p="appsettings.json" t="Include" />
             <e p="bin" t="ExcludeRecursive" />
             <e p="Discount.Grpc.csproj" t="IncludeRecursive" />
+            <e p="Dockerfile" t="Include" />
             <e p="Entities" t="Include">
               <e p="Coupon.cs" t="Include" />
             </e>
