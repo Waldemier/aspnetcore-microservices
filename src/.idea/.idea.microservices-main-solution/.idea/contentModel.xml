@@ -192,7 +192,18 @@
                 <e p="IOrderRepository.cs" t="Include" />
               </e>
             </e>
-            <e p="Features" t="Include" />
+            <e p="Features" t="Include">
+              <e p="Orders" t="Include">
+                <e p="Commands" t="Include" />
+                <e p="Queries" t="Include">
+                  <e p="GetOrdersList" t="Include">
+                    <e p="GetOrdersListQuery.cs" t="Include" />
+                    <e p="GetOrdersListQueryHandler.cs" t="Include" />
+                    <e p="OrdersVm.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
             <e p="Models" t="Include">
               <e p="Email.cs" t="Include" />
               <e p="EmailSettings.cs" t="Include" />

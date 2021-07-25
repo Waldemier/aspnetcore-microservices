@@ -9,15 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a2e02f-f300-4afb-9161-2d6d4712f63e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Contracts/Infrastructure/IEmailService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Contracts/Persistence/IAsyncRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Contracts/Persistence/IOrderRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Models/Email.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Models/EmailSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/GetOrdersListQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/GetOrdersListQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/OrdersVm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +76,11 @@
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Models/Email.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Models/EmailSettings.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Contracts/Infrastructure/IEmailService.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/GetOrdersListQuery.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/GetOrderListQueryHandler.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/OrdersVm.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/GetOrdersListQueryHandler.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" />
     </changedPaths>
   </component>
@@ -352,7 +354,7 @@
       <workItem from="1626739716076" duration="11704000" />
       <workItem from="1626799463324" duration="410000" />
       <workItem from="1626800535152" duration="7217000" />
-      <workItem from="1627170946068" duration="4008000" />
+      <workItem from="1627170946068" duration="6037000" />
     </task>
     <servers />
   </component>
