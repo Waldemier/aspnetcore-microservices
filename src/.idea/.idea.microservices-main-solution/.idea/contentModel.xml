@@ -194,7 +194,13 @@
             </e>
             <e p="Features" t="Include">
               <e p="Orders" t="Include">
-                <e p="Commands" t="Include" />
+                <e p="Commands" t="Include">
+                  <e p="CheckoutOrder" t="Include">
+                    <e p="CheckoutOrderCommand.cs" t="Include" />
+                    <e p="CheckoutOrderCommandHandler.cs" t="Include" />
+                    <e p="CheckoutOrderCommandValidator.cs" t="Include" />
+                  </e>
+                </e>
                 <e p="Queries" t="Include">
                   <e p="GetOrdersList" t="Include">
                     <e p="GetOrdersListQuery.cs" t="Include" />
