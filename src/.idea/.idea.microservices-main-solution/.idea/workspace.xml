@@ -9,12 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a2e02f-f300-4afb-9161-2d6d4712f63e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/CheckoutOrder/CheckoutOrderCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/CheckoutOrder/CheckoutOrderCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/CheckoutOrder/CheckoutOrderCommandValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +31,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D4D0BFB3-33ED-418B-8EC2-AEFE5EF745F4/DE/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/87E527E8-521B-4023-99C5-7C2F8C7A4572/54/ValidationFailure.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D4D0BFB3-33ED-418B-8EC2-AEFE5EF745F4/228/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Services/Discount.API/appsettings.json" />
-      <option value="$PROJECT_DIR$/Services/Discount.API/Repositories/DiscountRepository.cs" />
-      <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Program.cs" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Extensions/HostExtensions.cs" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Entities/Coupon.cs" />
@@ -84,8 +78,15 @@
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Queries/GetOrdersList/GetOrdersListQueryHandler.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/CheckoutOrder/CheckoutOrderCommand.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/CheckoutOrder/CheckoutOrderCommandHandler.cs" />
-      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/CheckoutOrder/CheckoutOrderCommandValidator.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/UpdateOrder/UpdateOrderCommand.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/UpdateOrder/UpdateOrderCommandValidator.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/DeleteOrder/DeleteOrderCommand.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Exceptions/NotFoundException.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Exceptions/ValidationException.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/DeleteOrder/DeleteOrderCommandHandler.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/UpdateOrder/UpdateOrderCommandHandler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vIBLA3rJ3fcjS8dY6ndhPwNqdv" />
@@ -103,7 +104,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Ordering.API">
@@ -358,7 +359,7 @@
       <workItem from="1626739716076" duration="11704000" />
       <workItem from="1626799463324" duration="410000" />
       <workItem from="1626800535152" duration="7217000" />
-      <workItem from="1627170946068" duration="8458000" />
+      <workItem from="1627170946068" duration="14637000" />
     </task>
     <servers />
   </component>

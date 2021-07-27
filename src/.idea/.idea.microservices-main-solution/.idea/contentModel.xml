@@ -192,6 +192,10 @@
                 <e p="IOrderRepository.cs" t="Include" />
               </e>
             </e>
+            <e p="Exceptions" t="Include">
+              <e p="NotFoundException.cs" t="Include" />
+              <e p="ValidationException.cs" t="Include" />
+            </e>
             <e p="Features" t="Include">
               <e p="Orders" t="Include">
                 <e p="Commands" t="Include">
@@ -199,6 +203,15 @@
                     <e p="CheckoutOrderCommand.cs" t="Include" />
                     <e p="CheckoutOrderCommandHandler.cs" t="Include" />
                     <e p="CheckoutOrderCommandValidator.cs" t="Include" />
+                  </e>
+                  <e p="DeleteOrder" t="Include">
+                    <e p="DeleteOrderCommand.cs" t="Include" />
+                    <e p="DeleteOrderCommandHandler.cs" t="Include" />
+                  </e>
+                  <e p="UpdateOrder" t="Include">
+                    <e p="UpdateOrderCommand.cs" t="Include" />
+                    <e p="UpdateOrderCommandHandler.cs" t="Include" />
+                    <e p="UpdateOrderCommandValidator.cs" t="Include" />
                   </e>
                 </e>
                 <e p="Queries" t="Include">
