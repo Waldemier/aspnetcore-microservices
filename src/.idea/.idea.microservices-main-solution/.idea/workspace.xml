@@ -11,7 +11,9 @@
     <list default="true" id="38a2e02f-f300-4afb-9161-2d6d4712f63e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microservices-main-solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Profiles/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/DeleteOrder/DeleteOrderCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/DeleteOrder/DeleteOrderCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/UpdateOrder/UpdateOrderCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/UpdateOrder/UpdateOrderCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +38,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Services/Discount/Discount.API/Extensions/HostExtensions.cs" />
-      <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Entities/Coupon.cs" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Repositories/DiscountRepository.cs" />
       <option value="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Repositories/IDiscountRepository.cs" />
@@ -87,6 +87,8 @@
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Exceptions/ValidationException.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/DeleteOrder/DeleteOrderCommandHandler.cs" />
       <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Features/Orders/Commands/UpdateOrder/UpdateOrderCommandHandler.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Behaviours/ValidationBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Behaviours/UnhandledExceptionBehaviour.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vIBLA3rJ3fcjS8dY6ndhPwNqdv" />
@@ -359,7 +361,7 @@
       <workItem from="1626739716076" duration="11704000" />
       <workItem from="1626799463324" duration="410000" />
       <workItem from="1626800535152" duration="7217000" />
-      <workItem from="1627170946068" duration="14637000" />
+      <workItem from="1627170946068" duration="18121000" />
     </task>
     <servers />
   </component>

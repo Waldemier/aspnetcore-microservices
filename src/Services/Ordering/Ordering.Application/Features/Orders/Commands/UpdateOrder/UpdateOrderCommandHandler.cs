@@ -31,6 +31,7 @@ namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
             if (orderToUpdate is null)
             {
                 this._logger.LogError("Order isn't exist on database");
+                // Custom exception
                 throw new NotFoundException(nameof(UpdateOrderCommand), typeof(Order));
             }
             

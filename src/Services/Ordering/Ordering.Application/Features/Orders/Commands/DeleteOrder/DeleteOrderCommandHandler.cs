@@ -30,6 +30,7 @@ namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
             if (orderToDelete is null)
             {
                 this._logger.LogError("Order isn't exist on database");
+                // Custom exception
                 throw new NotFoundException(nameof(DeleteOrderCommand), typeof(Order));
             }
             
