@@ -18,7 +18,7 @@ services:
     image: portainer/portainer-ce
     
   catalog.api:
-    image: ${DOCKER_REGISTRY-}catalogapi
+    image: ${DOCKER_REGISTRY-}catalogapi # ${DOCKER_REGISTRY-} - якщо такий контейнер вже існує, то на початок імені вмонтується рандомне id типу guid
     build:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
@@ -28,7 +28,19 @@ services:
     build:
       context: .
       dockerfile: Services/Basket/Basket.API/Dockerfile
-
+  
+  discount.api:
+    image: ${DOCKER_REGISTRY-}discountapi
+    build: 
+      context: .
+      dockerfile: Services/Discount/Discount.API/Dockerfile
+    
+  discount.grpc:
+    image: ${DOCKER_REGISTRY-}discountgrpc
+    build:
+      context: .
+      dockerfile: Services/Discount/Discount.Grpc/Dockerfile
+      
 volumes: 
   mongo_data:
   portainer_data:

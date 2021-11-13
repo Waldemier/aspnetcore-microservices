@@ -35,7 +35,7 @@ namespace Discount.API.Repositories
         public async Task<bool> CreateDiscountAsync(Coupon coupon)
         {
             using var connection = new NpgsqlConnection(
-                this._configuration.GetValue<string>("DataSettings:ConnectionString"));
+                this._configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var affected = await connection.ExecuteAsync(
                 @"INSERT INTO Coupon (ProductName, Description, Amount) 
@@ -56,10 +56,10 @@ namespace Discount.API.Repositories
         public async Task<bool> UpdateDiscountAsync(Coupon coupon)
         {
             using var connection = new NpgsqlConnection(
-                this._configuration.GetValue<string>("DataSettings:ConnectionString"));
+                this._configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var affected = await connection.ExecuteAsync(
-                @"UPDATE Coupon SET ProductName=@ProductName, Description=@Description, Amount=@Amount WHERE Id=@Id",
+                @"UPDATE Coupon SET ProductName=@ProductName, Description=@Description, Amount=@Amount WHERE Id=@Id;",
                 new 
                 { 
                     ProductName = coupon.ProductName, 
@@ -77,7 +77,7 @@ namespace Discount.API.Repositories
         public async Task<bool> DeleteDiscountAsync(string productName)
         {
             using var connection = new NpgsqlConnection(
-                this._configuration.GetValue<string>("DataSettings:ConnectionString"));
+                this._configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var affected = await connection.ExecuteAsync(
                 "DELETE FROM Coupon WHERE ProductName=@ProductName",
