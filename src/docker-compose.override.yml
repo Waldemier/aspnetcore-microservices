@@ -18,14 +18,14 @@ services:
       - "6379:6379"
   
   discountdb:
-    container_name: discountdb
+    container_name: discountdb_postgres
     environment:
       - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=Admin123!
+      - POSTGRES_PASSWORD=admin1234
       - POSTGRES_DB=DiscountDb
     restart: always
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data/
   
@@ -34,7 +34,7 @@ services:
     environment:
       # variables from documentation
       - PGADMIN_DEFAULT_EMAIL=admin@admin.com
-      - PGADMIN_DEFAULT_PASSWORD=Admin123!
+      - PGADMIN_DEFAULT_PASSWORD=admin1234
     restart: always
     ports:
       - "5050:80"

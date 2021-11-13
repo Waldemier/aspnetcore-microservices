@@ -22,7 +22,7 @@ namespace Discount.API.Repositories
                 this._configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             // using query like this by Dapper
-            var coupon = await connection.QueryFirstOrDefaultAsync(
+            var coupon = await connection.QueryFirstOrDefaultAsync<Coupon>(
                 "SELECT * FROM Coupon WHERE ProductName = @ProductName", 
                 new { ProductName = productName });
             
