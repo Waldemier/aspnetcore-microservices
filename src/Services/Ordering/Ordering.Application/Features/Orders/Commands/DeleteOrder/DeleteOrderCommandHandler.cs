@@ -38,6 +38,7 @@ namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
             
             this._logger.LogInformation($"Order with {orderToDelete.Id} Id is successfully deleted.");
             
+            // When Mediator hasn't to returns anything
             return Unit.Value;
         }
     }
