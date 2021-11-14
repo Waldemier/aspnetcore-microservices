@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using MediatR;
 using System;
 using System.Threading.Tasks;
-using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using Ordering.Application.Features.Orders.Commands.CheckoutOrder;
